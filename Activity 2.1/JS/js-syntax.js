@@ -1,0 +1,1 @@
+document.getElementById("syntax").innerHTML = 10.50;
