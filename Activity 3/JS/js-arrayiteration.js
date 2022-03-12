@@ -1,4 +1,9 @@
-const f = ["Apple", "Orange", "Apple", "Mango"];
-let position = f.indexOf("Apple") + 1;
+const numbers = [45, 4, 9, 16, 25];
 
-document.getElementById("arrayiteration").innerHTML = "Apple is found in position " + position;
+let txt = "";
+numbers.forEach(myFunction);
+document.getElementById("arrayiteration").innerHTML = txt;
+
+function myFunction(value, index, array) {
+  txt += value + "<br>"; 
+}

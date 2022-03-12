@@ -1,5 +1,10 @@
-const vegetables = ["Cabbage", "Lettuce", "Pumpkin", "Eggplant"];
-document.getElementById("arraysort").innerHTML = vegetables;
+const juice = ["Banana", "Orange", "Apple", "Mango"];
+document.getElementById("sort").innerHTML = juice;
 
-vegetables.sort();
-document.getElementById("arraysort2").innerHTML = vegetables;
+// First sort the array
+juice.sort();
+
+// Then reverse it:
+juice.reverse();
+
+document.getElementById("rev").innerHTML = juice;

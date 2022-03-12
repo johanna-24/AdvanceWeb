@@ -1,2 +1,5 @@
-const m = new Date();
-document.getElementById("dategetmethods").innerHTML = m.getTime();
+const months = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+
+const mon = new Date();
+let month = months[mon.getMonth()];
+document.getElementById("dategetmethods").innerHTML = month;

@@ -1,5 +1,6 @@
-let k = 123;
+let d = 9.656;
 document.getElementById("numbermethods").innerHTML =
-  k.toString() + "<br>" +
-   (123).toString() + "<br>" +
-   (100 + 23).toString();
+  d.toExponential() + "<br>" + 
+  d.toExponential(2) + "<br>" + 
+  d.toExponential(4) + "<br>" + 
+  d.toExponential(6);
