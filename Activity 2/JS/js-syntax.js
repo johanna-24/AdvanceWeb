@@ -1,4 +1,1 @@
-let lastname, lastName;
-lastName = "Johanna";
-lastname = "Padilla";
-document.getElementById("syntax").innerHTML = lastname;
+document.getElementById("syntax").innerHTML = 10.50;

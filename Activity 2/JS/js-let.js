@@ -1,10 +1,8 @@
-let  x = 10;
-
+var  e = 10;
 
 {  
-  let x = 2;
- 
+var e = 2;
+
 }
 
-// Here x is 10
-document.getElementById("let").innerHTML = x;
+document.getElementById("let").innerHTML = e;

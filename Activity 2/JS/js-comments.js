@@ -1,2 +1,2 @@
-document.getElementById("comments").innerHTML = "Advance Web";
-document.getElementById("2ndcomments").innerHTML = "Activity 2";
+document.getElementById("comments").innerHTML = "JavaScript Comments";
+document.getElementById("comments").innerHTML = "My first paragraph.";

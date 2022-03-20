@@ -1,4 +1,2 @@
-let a = 90;
-let b = 68;
-let x = a + b;
-document.getElementById("arithmetic").innerHTML = x;
+let q = 100 + 50;
+document.getElementById("arithmetic").innerHTML = q;

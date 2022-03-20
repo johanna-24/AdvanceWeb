@@ -1,2 +1,2 @@
-document.getElementById("output").innerHTML = 11 + 30;
-console.log("Hello Javascript World")
+document.getElementById("output").innerHTML = 5 + 6;
+console.log("Hello World!")

@@ -1,7 +1,7 @@
-const car = {type:"Fiat", model:"500", color:"white"};
-
-car.color = "red";
-
-car.owner = "Johnson";
-
-document.getElementById("const").innerHTML = "Car owner is " + car.owner; 
+try {
+    const PI = 3.141592653589793;
+    PI = 3.14;
+  }
+  catch (err) {
+    document.getElementById("const").innerHTML = err;
+  }

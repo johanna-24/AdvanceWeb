@@ -1,4 +1,4 @@
-let text1 = "Johanna";
-let text2 = "Padilla";
-let text3 = text1 + " " + text2;
-document.getElementById("operators").innerHTML = text3;
+let a = 5;
+let b = 2;
+let c = x + y;
+document.getElementById("operators").innerHTML = c;

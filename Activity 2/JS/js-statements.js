@@ -1,2 +1,7 @@
+let x, y, z;  
+x = 5;        
+y = 6;        
+z = x + y;    
+
 document.getElementById("statements").innerHTML =
-"Hello I'm Johanna!";
+"The value of z is " + z + ".";  
